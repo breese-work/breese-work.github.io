@@ -1,7 +1,7 @@
 window.Framework = {
     config: {
         // Name of your framework integration - replace with meaningful name
-        name: 'breesedev',
+        name: "breesedev",
         
         // OAuth Client IDs for different regions
         clientIds: {
