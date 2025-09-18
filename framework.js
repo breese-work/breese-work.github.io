@@ -1,7 +1,7 @@
 window.Framework = {
     config: {
         // Name of your framework integration - replace with meaningful name
-        name: 'testEF',
+        name: 'breesedev',
         
         // OAuth Client IDs for different regions
         clientIds: {
@@ -10,13 +10,21 @@ window.Framework = {
         
         // Optional settings to customize client behavior
         settings: {
-            embedWebRTCByDefault: true,         // Embed WebRTC softphone
-            hideWebRTCPopUpOption: false,       // Show/hide WebRTC popup option
-            enableCallLogs: true,               // Enable call logging features
-            hideCallLogSubject: false,          // Show/hide call log subject field
-            hideCallLogContact: false,          // Show/hide call log contact field
-            hideCallLogRelation: false,         // Show/hide call log relation field
-            enableNotifications: true           // Enable browser notifications
+            embedWebRTCByDefault: true,
+            hideWebRTCPopUpOption: false,
+            enableCallLogs: true,
+            hideCallLogSubject: false,
+            hideCallLogContact: false,
+            hideCallLogRelation: false,
+            enableTransferContext: true,
+            dedicatedLoginWindow: true,
+            embeddedInteractionWindow: true,
+            enableConfigurableCallerId: false,
+            enableServerSideLogging: false,
+            enableCallHistory: false,
+            defaultOutboundSMSCountryCode: "+1",
+            searchTargets: ["people", "queues", "frameworkContacts", "externalContacts"],
+            callControls: ["pickup", "transfer",  "disconnect"],
         },
         
         // Optional help links
