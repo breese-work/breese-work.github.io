@@ -15,7 +15,7 @@ window.Framework = {
             hideCallLogContact: false,
             hideCallLogRelation: false,
             enableTransferContext: true,
-            dedicatedLoginWindow: false,
+            dedicatedLoginWindow: true,
             embeddedInteractionWindow: true,
             enableConfigurableCallerId: false,
             enableServerSideLogging: false,
