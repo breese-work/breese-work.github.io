@@ -2,7 +2,7 @@ window.Framework = {
     config: {
         name: "AcmeCRM",
         clientIds: {
-            "usw2.pure.cloud": "<your OAuth Client ID>"
+            "usw2.pure.cloud": "9f4ef35c-6cf3-4d6c-8abe-1cca6f15fa3a"
         },
         settings: {
             embedWebRTCByDefault: true,
