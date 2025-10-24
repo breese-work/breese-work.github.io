@@ -1,3 +1,4 @@
+//v2
 window.Framework = {
     config: {
         name: "AcmeCRM",
